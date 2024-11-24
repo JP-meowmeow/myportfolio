@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-
-
 const TypingAnimation = ({ words, typingSpeed = 150, deleteSpeed = 75, pauseTime = 2000 }) => {
     const [text, setText] = useState('');
     const [wordIndex, setWordIndex] = useState(0);
