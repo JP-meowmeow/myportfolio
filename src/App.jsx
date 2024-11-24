@@ -1,9 +1,9 @@
-import PortfolioHero from "./components/portfolioHero";
+import MainContents from "./components/MainContents";
 
 export default function App() {
   return (
     <div>
-      <PortfolioHero/>
+      <MainContents/>
     </div>
   )
 }

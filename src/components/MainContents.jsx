@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import {useState,useEffect} from 'react'
 
 const TypingAnimation = ({ words, typingSpeed = 150, deleteSpeed = 75, pauseTime = 2000 }) => {
     const [text, setText] = useState('');
@@ -46,7 +46,7 @@ const ScrollToSection = ({ targetId }) => {
   );
 };
 
-const PortfolioHero = () => {
+const MainContents = () => {
   const roles = [
     "Backend Developer",
     "Full Stack Developer",
@@ -132,4 +132,4 @@ const PortfolioHero = () => {
   );
 };
 
-export default PortfolioHero;
+export default MainContents
