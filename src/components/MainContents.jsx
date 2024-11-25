@@ -66,7 +66,7 @@ const MainContents = () => {
             <ScrollToSection targetId="home" />
             <ScrollToSection targetId="skills" />
             <ScrollToSection targetId="projects" />
-            <ScrollToSection targetId="contact" />
+            {/* <ScrollToSection targetId="contact" /> */}
           </div>
         </div>
       </nav>
@@ -77,8 +77,8 @@ const MainContents = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-[500px] h-[500px] overflow-hidden ">
               <img
-                // src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1732458198/S__36225061_hhcwgq.jpg"
-                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1732521921/Untitled_design_5_jtnxt4.png"
+                // src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1732521921/Untitled_design_5_jtnxt4.png"
+                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1732548290/Untitled_design_6_txpdfu.png"
                 alt="Profile"
                 className="w-[500px] h-full object-cover"
               />
@@ -111,19 +111,35 @@ const MainContents = () => {
       {/* Projects Section */}
       <section id="projects" className="min-h-screen">
         <div className="max-w-6xl mx-auto px-4 py-20">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-black">PROJECTS</h2>
-          {/* Add your projects content here */}
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-black">PROJECTS</h2>
+          <div className='bg-white p-4 pt-12 rounded-xl shadow-lg hover:shadow-xl text-gray-800  flex flex-col items-center gap-8'>
+          <iframe width="600" height="315" src="https://www.youtube.com/embed/8JQO5Tn4GMA?si=7G2S79dOKwHqGz_b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div className='flex flex-col gap-5 '>
+            <div className='flex flex-col gap-3'>
+
+            <h1 className='text-center font-bold text-black'>Sarupsaisin Project : Japanese Online Course</h1>
+            <p>Frontend Tools : React Tailwind DaisyUI</p>
+            <p>Backend Tools : Node.js Express bcryptjs jsonwebtoken nodemailer Prisma-ORM </p>
+            </div>
+            <div className='flex justify-center'>
+
+            <button className="btn btn-xs sm:btn-sm md:btn-md w-3/4 text-white bg-[#F3747F]">
+
+            <a href="https://sarupsaisin-web.onrender.com/" className='text-center'>Sarupsaisin สรุปสายศิลป์</a>
+            </button>
+            </div>
+          </div>
+          </div>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="min-h-screen bg-slate-800/50">
+      {/* <section id="contact" className="min-h-screen bg-slate-200">
         <div className="max-w-6xl mx-auto px-4 py-20">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-black">CONTACT</h2>
 
-          {/* Add your contact content here */}
         </div>
-      </section>
+      </section> */}
 
       {/* Scroll to Top Button */}
       <button

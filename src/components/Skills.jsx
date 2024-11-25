@@ -47,6 +47,23 @@ const Skills = () => {
     },{
       name:"Prisma",
       link:"https://cdn.worldvectorlogo.com/logos/prisma-2.svg"
+    },
+    {
+      name:"Leaflet",
+      link:"https://logowik.com/content/uploads/images/leaflet2903.logowik.com.webp "
+    },{
+      name:"Nodemailer",
+      link:"https://i0.wp.com/community.nodemailer.com/wp-content/uploads/2015/10/n2-2.png?w=422&ssl=1"
+    },{
+      name:"DaisyUI",
+      link:"https://img.daisyui.com/images/daisyui-logo/daisyui-logotype.svg"
+    },{
+      name:"JOI",
+      link:"https://blog.shiftasia.com/content/images/2023/06/joiTransparent.png"
+    },
+    {
+      name:"Git",
+      link:"https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
     }
    
   ];
@@ -55,7 +72,7 @@ const Skills = () => {
     <section id="skills" className="py-20 bg-slate-200">
       <div className="max-w-6xl mx-auto px-4 p-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-black">SKILLS</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {skills.map((skill) => (
             <SkillCard 
               key={skill.name}
