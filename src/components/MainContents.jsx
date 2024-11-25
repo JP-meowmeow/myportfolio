@@ -1,4 +1,5 @@
 import {useState,useEffect} from 'react'
+import Skills from './Skills';
 
 const TypingAnimation = ({ words, typingSpeed = 150, deleteSpeed = 75, pauseTime = 2000 }) => {
     const [text, setText] = useState('');
@@ -55,11 +56,12 @@ const MainContents = () => {
   ];
 
   return (
-    <div className="bg-slate-900 text-white">
+    // BG color change
+    <div className="text-white"> 
       {/* Fixed Navigation */}
-      <nav className="fixed top-0 left-0 right-0 bg-slate-900/95 backdrop-blur-sm z-50 border-b border-slate-800">
+      <nav className="fixed top-0 left-0 right-0 bg-slate-500/95 backdrop-blur-sm z-50 border-b border-slate-800">
         <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
-          <div className="text-2xl font-bold">SV</div>
+          <div className="text-2xl font-bold"><a href="/"></a><img src="https://www.svgrepo.com/show/364387/club-fill.svg" alt="" className='h-[50px]'/></div>
           <div className="flex gap-6">
             <ScrollToSection targetId="home" />
             <ScrollToSection targetId="skills" />
@@ -70,24 +72,25 @@ const MainContents = () => {
       </nav>
 
       {/* Home Section */}
-      <section id="home" className="min-h-screen pt-20">
-        <div className="max-w-6xl mx-auto px-4 py-20">
+      <section id="home" className="  pt-20">
+        <div className="max-w-6xl mx-auto px-4 pt-20 py-5 sm:py-0">
           <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-blue-400">
+            <div className="w-[500px] h-[500px] overflow-hidden ">
               <img
-                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1732458198/S__36225061_hhcwgq.jpg"
+                // src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1732458198/S__36225061_hhcwgq.jpg"
+                src="https://res.cloudinary.com/dhwgh6rof/image/upload/v1732521921/Untitled_design_5_jtnxt4.png"
                 alt="Profile"
-                className="w-full h-full object-cover"
+                className="w-[500px] h-full object-cover"
               />
             </div>
             <div className="max-w-xl">
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">
+              <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">
               Jirapat Thongbenjawat
               </h1>
-              <div className="text-2xl md:text-3xl text-blue-400 font-bold mb-4">
+              <div className="text-2xl md:text-3xl text-blue-500 font-bold mb-4">
               <TypingAnimation words={roles} />
               </div>
-              <p className="text-gray-300 text-lg">
+              <p className="text-gray-500 text-lg">
               I am a web developer specializing in React and Node.js, seeking a position
               as a Full Stack Developer. I am passionate about creating high-quality
               and impactful projects while continuously learning new technologies.
@@ -96,19 +99,19 @@ const MainContents = () => {
           </div>
         </div>
       </section>
-
       {/* Skills Section */}
-      <section id="skills" className="min-h-screen bg-slate-800/50">
-        <div className="max-w-6xl mx-auto px-4 py-20">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Skills</h2>
-          {/* Add your skills content here */}
-        </div>
+      <section id="skills" className="min-h-screen ">
+        {/* <div className="max-w-6xl mx-auto px-4 py-20"> */}
+          {/* <h2 className="text-3xl md:text-4xl font-bold mb-8">Skills</h2> */}
+
+        <Skills/>
+        {/* </div> */}
       </section>
 
       {/* Projects Section */}
       <section id="projects" className="min-h-screen">
         <div className="max-w-6xl mx-auto px-4 py-20">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Projects</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-black">PROJECTS</h2>
           {/* Add your projects content here */}
         </div>
       </section>
@@ -116,7 +119,8 @@ const MainContents = () => {
       {/* Contact Section */}
       <section id="contact" className="min-h-screen bg-slate-800/50">
         <div className="max-w-6xl mx-auto px-4 py-20">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">Contact</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-black">CONTACT</h2>
+
           {/* Add your contact content here */}
         </div>
       </section>
