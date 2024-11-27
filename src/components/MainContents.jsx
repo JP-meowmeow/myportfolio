@@ -57,9 +57,9 @@ const MainContents = () => {
 
   return (
     // BG color change
-    <div className="text-white"> 
+    <div className="text-white font-kanit"> 
       {/* Fixed Navigation */}
-      <nav className="fixed top-0 left-0 right-0 bg-slate-500/95 backdrop-blur-sm z-50 border-b border-slate-800">
+      <nav className="fixed px-10 top-0 left-0 right-0 bg-slate-500/95 backdrop-blur-sm z-50 border-b border-slate-800">
         <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
           <div className="text-2xl font-bold"><a href="/"></a><img src="https://www.svgrepo.com/show/364387/club-fill.svg" alt="" className='h-[50px]'/></div>
           <div className="flex gap-6">
@@ -108,30 +108,53 @@ const MainContents = () => {
         {/* </div> */}
       </section>
 
-      {/* Projects Section */}
-      <section id="projects" className="min-h-screen">
-        <div className="max-w-6xl mx-auto px-4 py-20">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-black">PROJECTS</h2>
-          <div className='bg-white p-4 pt-12 rounded-xl shadow-lg hover:shadow-xl text-gray-800  flex flex-col items-center gap-8'>
-          <iframe width="600" height="315" src="https://www.youtube.com/embed/8JQO5Tn4GMA?si=7G2S79dOKwHqGz_b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div className='flex flex-col gap-5 '>
-            <div className='flex flex-col gap-3'>
-
-            <h1 className='text-center font-bold text-black'>Sarupsaisin Project : Japanese Online Course</h1>
-            <p>Frontend Tools : React Tailwind DaisyUI</p>
-            <p>Backend Tools : Node.js Express bcryptjs jsonwebtoken nodemailer Prisma-ORM </p>
-            </div>
-            <div className='flex justify-center'>
-
-            <button className="btn btn-xs sm:btn-sm md:btn-md w-3/4 text-white bg-[#F3747F]">
-
-            <a href="https://sarupsaisin-web.onrender.com/" className='text-center'>Sarupsaisin สรุปสายศิลป์</a>
-            </button>
-            </div>
-          </div>
-          </div>
+     {/* Projects Section */}
+<section id="projects" className=" bg-gray-50">
+  <div className="max-w-6xl mx-auto px-4 py-20">
+    <h2 className="text-5xl md:text-4xl font-bold text-center mb-8 text-black">
+      PROJECTS
+    </h2>
+    <div className="bg-white p-4 sm:p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl text-gray-800 flex flex-col items-center gap-8 mt-8">
+      {/* Video Container */}
+      <div className="w-full sm:w-[400px] md:w-[600px] h-[200px] sm:h-[250px] md:h-[315px]">
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/8JQO5Tn4GMA?si=7G2S79dOKwHqGz_b"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      </div>
+      {/* Project Details */}
+      <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-3 text-center">
+          <h1 className="font-bold text-lg sm:text-xl md:text-2xl text-black">
+            Sarupsaisin Project: Japanese Online Course
+          </h1>
+          <p className="text-sm sm:text-base">
+            <strong>Frontend Tools:</strong> React, Tailwind, DaisyUI
+          </p>
+          <p className="text-sm sm:text-base">
+            <strong>Backend Tools:</strong> Node.js, Express, bcryptjs, jsonwebtoken, nodemailer, Prisma-ORM
+          </p>
         </div>
-      </section>
+        {/* Button */}
+        <div className="flex justify-center">
+          <a
+            href="https://sarupsaisin-web.onrender.com/"
+            className="btn btn-sm sm:btn-sm md:btn-md w-full sm:w-3/4 text-white bg-[#F3747F] text-center py-2 rounded-lg hover:bg-[#e0636e]"
+          >
+            Sarupsaisin สรุปสายศิลป์
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Contact Section */}
       {/* <section id="contact" className="min-h-screen bg-slate-200">
