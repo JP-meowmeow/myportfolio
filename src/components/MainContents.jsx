@@ -1,5 +1,6 @@
 import {useState,useEffect} from 'react'
 import Skills from './Skills';
+import Footer from './Footer';
 
 const TypingAnimation = ({ words, typingSpeed = 150, deleteSpeed = 75, pauseTime = 2000 }) => {
     const [text, setText] = useState('');
@@ -92,7 +93,7 @@ const MainContents = () => {
               </div>
               <p className="text-gray-500 text-lg">
               I am a web developer specializing in React and Node.js, seeking a position
-              as a Full Stack Developer. I am passionate about creating high-quality
+              as a Front-End Developer, Back-End Developer and Full Stack Developer. I am passionate about creating high-quality
               and impactful projects while continuously learning new technologies.
               </p>
             </div>
@@ -147,7 +148,7 @@ const MainContents = () => {
             href="https://sarupsaisin-web.onrender.com/"
             className="btn btn-sm sm:btn-sm md:btn-md w-full sm:w-3/4 text-white bg-[#F3747F] text-center py-2 rounded-lg hover:bg-[#e0636e]"
           >
-            Sarupsaisin สรุปสายศิลป์
+           Visit Sarupsaisin สรุปสายศิลป์
           </a>
         </div>
       </div>
@@ -165,6 +166,7 @@ const MainContents = () => {
       </section> */}
 
       {/* Scroll to Top Button */}
+      <Footer/>
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         className="fixed bottom-8 right-8 bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-full shadow-lg transition-all duration-300"
