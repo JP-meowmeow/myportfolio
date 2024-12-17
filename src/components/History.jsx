@@ -20,11 +20,11 @@ function History() {
 
     <div className="w-full bg-gray-100/50 text-black ">
       <section id="experience" className="py-10 mx-auto">
-        <h2 className="text-5xl md:text-5xl font-bold text-center  text-black text-shadow-sm">
+        <h2 className="text-4xl md:text-6xl font-bold text-center  text-black text-shadow-sm mb-4">
           Experience
         </h2>
-        <div className="flex overflow-hidden px-10 justify-around items-center min-h-[700px]">
-          <div className="flex flex-col w-1/3 gap-5 justify-end items-end">
+        <div className="md:flex overflow-hidden md:px-10 justify-around items-center min-h-[700px] ">
+          <div className="flex md:flex-col w-3/4 md:w-1/3 gap-10 px-5 mx-auto md:mx-0 md:px-0 md:gap-5 justify-center md:justify-end items-end">
             {
                 studyActive == true 
                 ?<button
@@ -71,19 +71,19 @@ function History() {
 
            
           </div>
-          <div className=" w-[1000px]">
+          <div className=" w-[1000px] ">
             {experience == "Study" ? (
-              <div className="flex flex-col gap-3">
+              <div className="flex flex-col gap-3 w-2/5 md:w-full text-sm md:text-lg">
                 {/* 1st card */}
-                <div className="p-5 rounded-md">
-                  <div className="flex items-center gap-5">
+                <div className="p-5  rounded-md hover:shadow-xl hover:bg-gradient-to-r from-blue-500  to-green-500 hover:text-white ">
+                  <div className="flex items-center gap-5 ">
                     <img
                       src="https://media.licdn.com/dms/image/v2/C560BAQFzqgedOoX_rg/company-logo_200_200/company-logo_200_200/0/1630644648038?e=1742428800&v=beta&t=OAH5Md5dxdbfIrbJXQkCdGndOYLPSy8j4mSJmC4EN6g"
                       alt=""
-                      className="w-[150px] "
+                      className="w-[100px] md:w-[150px] shadow-lg "
                     />
-                    <div className="flex flex-col">
-                      <p className="text-lg font-bold">
+                    <div className="flex flex-col ">
+                      <p className="text-sm md:text-2xl font-bold">
                         SOFTWARE PARK THAILAND CODE CAMP{" "}
                       </p>
                       <p>Period Aug 2024 - Nov 2024</p>
@@ -96,15 +96,15 @@ function History() {
                   </div>
                 </div>
                             {/*  2nd card */}
-                            <div className="p-5 rounded-md">
+                            <div className="p-5 rounded-md hover:shadow-xl hover:bg-gradient-to-r from-blue-500  to-green-500 hover:text-white">
                   <div className="flex items-center gap-5">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Hokkaido_University_logo%2C_4.svg/640px-Hokkaido_University_logo%2C_4.svg.png"
                       alt=""
-                      className="w-[150px]"
+                      className="w-[100px] md:w-[150px] bg-white shadow-lg "
                     />
                     <div className="flex flex-col">
-                      <p className="text-lg font-bold">HOKKAIDO UNIVERSITY </p>
+                      <p className="text-sm md:text-2xl font-bold">HOKKAIDO UNIVERSITY </p>
                       <p>Period NOV 2021 - FEB 2022</p>
                       <p>
                         ・Short Term Japanese -English Course Program
@@ -114,15 +114,15 @@ function History() {
                   </div>
                 </div>
                 {/* 3rd card */}
-                <div className="p-5 rounded-md">
+                <div className="p-5 rounded-md hover:shadow-xl hover:bg-gradient-to-r  from-blue-500  to-green-500 hover:text-white">
                   <div className="flex items-center gap-5">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Emblem_of_Thammasat_University.svg/512px-Emblem_of_Thammasat_University.svg.png?20181120082302"
                       alt=""
-                      className="w-[150px]"
+                      className="w-[100px] md:w-[150px] bg-white  shadow-lg"
                     />
                     <div className="flex flex-col">
-                      <p className="text-lg font-bold">THAMMASAT UNIVERSITY </p>
+                      <p className="text-sm md:text-2xl font-bold">THAMMASAT UNIVERSITY </p>
                       <p>Period Aug 2017 - Nov 2021</p>
                       <p>・GPA 3.44 (2nd Class Honors)</p>
                       <p>
@@ -139,20 +139,20 @@ function History() {
                 </div>
               </div>
             ) : (
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-3 w-2/5 md:w-full text-sm md:text-lg">
                     {/* 1st card */}
-                    <div className="p-5 rounded-md">
+                    <div className="p-5 rounded-md hover:shadow-xl hover:bg-gradient-to-r from-blue-500  to-green-500 hover:text-white">
                   <div className="flex items-center gap-5">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Kyocera_logo.svg/640px-Kyocera_logo.svg.png"
                       alt=""
-                      className="w-[150px] "
+                      className="w-[100px] md:w-[150px] bg-white shadow-lg"
                     />
                     <div className="flex flex-col gap-1">
-                      <p className="text-lg font-bold">
+                      <p className="text-sm md:text-2xl font-bold">
                       KYOCERA THAILAND CO. LTD LAMPHUN{" "}
                       </p>
-                      <p>Period  APR 2022 - APR 2023</p>
+                      <p>Period  SEP 2023 - APR 2024</p>
                       <p>JAPANESE INTERPRETER | QA DEPARTMENT</p>
                       <p>・Interpreted and translated communication between Thai and Japanese staff.</p>
                       <p>
@@ -165,18 +165,19 @@ function History() {
                         ・Backup and maintenance process data server.
                       </p>
                     </div>
+
                   </div>
                 </div>
                     {/* 2nd card */}
-                    <div className="p-5 rounded-md">
+                    <div className="p-5 rounded-md hover:shadow-xl hover:bg-gradient-to-r from-blue-500  to-green-500 hover:text-white">
                   <div className="flex items-center gap-5">
                     <img
                       src="https://www.delta-dpd.com/wp-content/uploads/2021/04/Logo.svg"
                       alt=""
-                      className="w-[150px] "
+                      className="w-[100px] md:w-[150px] bg-white shadow-lg"
                     />
                     <div className="flex flex-col gap-1">
-                      <p className="text-lg font-bold">
+                      <p className="text-sm md:text-2xl font-bold">
                       DELTA PARTS AND DIES COMPANY LIMITED{" "}
                       </p>
                       <p>Period  APR 2022 - APR 2023</p>
@@ -188,6 +189,7 @@ function History() {
                     </div>
                   </div>
                 </div>
+                
                     </div>
             )}
           </div>

@@ -78,8 +78,8 @@ function AnimationSkills() {
 
   return (
     <div className="w-full ">
-      <section id="skills" className="py-20 ">
-        <h2 className="text-5xl md:text-4xl font-bold text-center mb-8 text-black text-shadow-sm">
+      <section id="skills" className="py-10">
+        <h2 className="text-4xl md:text-6xl font-bold text-center mb-8  text-black text-shadow-sm">
           SKILLS
         </h2>
         <div className="flex overflow-hidden whitespace-nowrap text-center py-10">

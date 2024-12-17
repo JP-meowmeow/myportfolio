@@ -71,7 +71,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20 bg-slate-200">
       <div className="max-w-6xl mx-auto px-4 p-6">
-        <h2 className="text-5xl md:text-4xl font-bold text-center mb-8 text-black">SKILLS</h2>
+        <h2 className="text-4xl md:text-5xl  font-bold text-center mb-8 text-black">SKILLS</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {skills.map((skill) => (
             <SkillCard 
