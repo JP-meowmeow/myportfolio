@@ -3,7 +3,7 @@ import React from "react";
 function AnimationSkills() {
   const SkillCard = ({ name, link }) => {
     return (
-      <div className="bg-white p-4 pt-12 rounded-xl shadow-lg hover:shadow-xl hover:bg-slate-500 text-gray-800   hover:text-white transition-shadow duration-300 flex flex-col items-center gap-8">
+      <div className="bg-white p-4 pt-12 rounded-xl shadow-lg hover:shadow-xl hover:bg-slate-300 text-gray-800   hover:text-white transition-shadow duration-300 flex flex-col items-center gap-8">
         <div className="w-32 h-20 flex items-center justify-center">
           <img src={link} alt="" />
         </div>
@@ -28,7 +28,7 @@ function AnimationSkills() {
     },
     {
       name: "React",
-      link: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      link: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/512px-React_Logo_SVG.svg.png",
     },
     {
       name: "Tailwind",
