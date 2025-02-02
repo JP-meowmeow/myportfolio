@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -20,7 +19,7 @@ export default {
     },
   },
   plugins: [
-    import("daisyui"),
+    require("daisyui"),
     function ({ addUtilities }) {
       addUtilities({
         ".text-shadow-sm": { textShadow: "1px 1px 2px rgba(0, 0, 0, 0.25)" },
