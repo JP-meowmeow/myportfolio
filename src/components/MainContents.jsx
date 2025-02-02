@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import Information from "./Information";
 import Service from "./Service";
 import MapEmbed from "./MapEmbed";
-import Slideshow from "./SlideShow";
+import Slideshow from "./Slideshow";
 import Contacts from "./Contacts";
 
 const TypingAnimation = ({
