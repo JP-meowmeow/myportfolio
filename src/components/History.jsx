@@ -21,7 +21,7 @@ function History() {
     <div className="w-full bg-gray-100/50 text-black ">
       <section id="experience" className="py-10 mx-auto">
         <h2 className="text-4xl md:text-6xl font-bold text-center  text-black text-shadow-sm mb-4">
-          Experience
+          Information
         </h2>
         <div className="md:flex overflow-hidden md:px-10 justify-around items-center min-h-[700px] ">
           <div className="flex md:flex-col w-3/4 md:w-1/3 gap-10 px-5 mx-auto md:mx-0 md:px-0 md:gap-5 justify-center md:justify-end items-end">
