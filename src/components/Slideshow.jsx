@@ -15,7 +15,7 @@ const Slideshow = () => {
     <div className="w-full bg-gray-100/50 text-black p-10">
 
     <div className="w-1/2 mx-auto ">
-    <h2 className="text-4xl md:text-6xl font-bold text-center mb-8  text-black text-shadow-sm">
+    <h2 className="text-4xl md:text-5xl font-bold text-center mb-8  text-black text-shadow-sm">
           Our House
         </h2>
       {/* Main Image */}

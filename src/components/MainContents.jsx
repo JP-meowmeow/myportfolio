@@ -5,6 +5,7 @@ import Service from "./Service";
 import MapEmbed from "./MapEmbed";
 import Slideshow from "./Slideshow";
 import Contacts from "./Contacts";
+import NearPlace from "./NearPlace";
 
 const TypingAnimation = ({
   words,
@@ -157,12 +158,12 @@ const MainContents = () => {
                 </svg>
                 {/* IG */}
                 <a
-                  href="https://www.instagram.com/sarupsaisin/"
+                  href="#"
                   target="_blank"
                 >
                   <svg
-                    width="54px"
-                    height="56px"
+                    width="62px"
+                    height="64px"
                     viewBox="0 2 32 32"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -337,6 +338,7 @@ const MainContents = () => {
       {/* Projects Section */}
       <section id="location" className=" w-1/2  mx-auto py-10 text-black ">
       <MapEmbed/>
+      <NearPlace/>
       </section>
 {/* contact us */}
       <section id="contact us" className=" w-1/2  mx-auto py-10 text-black ">

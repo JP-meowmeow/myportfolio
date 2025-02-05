@@ -4,7 +4,7 @@ function Service() {
   return (
     <div>
       <section id="skills" className="py-10 px-10 ">
-        <h2 className="text-4xl md:text-6xl font-bold text-center mb-8  text-black text-shadow-sm">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-8  text-black text-shadow-sm">
           Service
         </h2>
 
