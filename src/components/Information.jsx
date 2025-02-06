@@ -6,7 +6,7 @@ function Information() {
       <h2 className="text-4xl md:text-5xl font-bold text-center  mt-5 text-black text-shadow-sm mb-4">
         Information
       </h2>
-      <section id="experience" className="py-10 px-20 mx-auto grid grid-cols-2 gap-5">
+      <section id="experience" className="py-10 md:px-20 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
         <div>
           <h1 className="font-bold">ราคาบ้านพัก</h1>
           <h1>
@@ -52,7 +52,7 @@ function Information() {
           </div>
           <div className="flex gap-2">
           <svg fill="#000000" height="32px" width="32px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M29,17h-5.4c-1.8,0-3.2-1.5-3.2-3.3c0-0.3,0-0.7-1.1-0.7h-6.6c-1.1,0-1.1,0.4-1.1,0.7c0,1.8-1.4,3.3-3.2,3.3H3 c-0.6,0-1-0.4-1-1c0-5,3.9-9,8.6-9h10.8c4.7,0,8.6,4,8.6,9C30,16.6,29.6,17,29,17z"></path> </g> <path d="M23.6,19c-2.4,0-4.5-1.7-5.1-4h-5.2c-0.6,2.3-2.6,4-5.1,4h-1C6.1,21.4,5,24.4,5,27c0,0.6,0.4,1,1,1h20c0.6,0,1-0.4,1-1 c0-2.6-1.1-5.6-2.3-8H23.6z M16,25c-2.2,0-4-1.8-4-4s1.8-4,4-4s4,1.8,4,4S18.2,25,16,25z"></path> <path d="M23,30c-0.6,0-1-0.4-1-1v-2c0-0.6,0.4-1,1-1s1,0.4,1,1v2C24,29.6,23.6,30,23,30z"></path> <path d="M9,30c-0.6,0-1-0.4-1-1v-2c0-0.6,0.4-1,1-1s1,0.4,1,1v2C10,29.6,9.6,30,9,30z"></path> </g></svg>
-          <span>โทร 081-1234567</span>
+          <span>โทร 081-165-6688</span>
           </div>
         </div>
       </section>

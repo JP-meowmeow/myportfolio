@@ -1,34 +1,33 @@
-import React from 'react'
+import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 function Contacts() {
   return (
     <div>
-        
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-8  text-black text-shadow-sm">
-          contact us
-        </h2>
-        <div className='flex justify-center gap-5'>
-
-        <button className="btn btn-lg no-animation"> <svg
+      <h2 className="text-4xl md:text-5xl font-bold text-center mb-8  text-black text-shadow-sm">
+        contact us
+      </h2>
+      <div className="grid grid-cols-3">
+        <div className="flex items-center gap-2">
+        <svg
                 width="32px"
-                    height="32px"
-                  viewBox="0 0 377.764 377.764"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#000000"
+                height="32px"
+                viewBox="0 0 377.764 377.764"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#000000"
                 >
                   <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                   <g
                     id="SVGRepo_tracerCarrier"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                  ></g>
+                    ></g>
                   <g id="SVGRepo_iconCarrier">
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
                       fill="#3ACE01"
                       d="M77.315 0h223.133c42.523 0 77.315 34.792 77.315 77.315v223.133c0 42.523-34.792 77.315-77.315 77.315H77.315C34.792 377.764 0 342.972 0 300.448V77.315C0 34.792 34.792 0 77.315 0z"
-                    ></path>
+                      ></path>
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
@@ -40,19 +39,22 @@ function Contacts() {
                       clip-rule="evenodd"
                       fill="#3ACE01"
                       d="M108.103 208.954h27.952c3.976 0 7.228-3.253 7.228-7.229v-.603c0-3.976-3.252-7.228-7.228-7.228h-20.121v-45.779c0-3.976-3.252-7.228-7.228-7.228h-.603c-3.976 0-7.228 3.252-7.228 7.228v53.609c0 3.977 3.252 7.23 7.228 7.23zm173.205-33.603v-.603c0-3.976-3.253-7.228-7.229-7.228h-20.12v-11.445h20.12c3.976 0 7.229-3.252 7.229-7.228v-.603c0-3.976-3.253-7.228-7.229-7.228h-27.952c-3.976 0-7.228 3.252-7.228 7.228v53.609c0 3.976 3.252 7.229 7.228 7.229h27.952c3.976 0 7.229-3.253 7.229-7.229v-.603c0-3.976-3.253-7.228-7.229-7.228h-20.12v-11.445h20.12c3.976.002 7.229-3.251 7.229-7.226zm-53.755 31.448l.002-.003a7.207 7.207 0 0 0 2.09-5.07v-53.609c0-3.976-3.252-7.228-7.229-7.228h-.603c-3.976 0-7.228 3.252-7.228 7.228v31.469l-26.126-35.042c-1.248-2.179-3.598-3.655-6.276-3.655h-.603c-3.976 0-7.229 3.252-7.229 7.228v53.609c0 3.976 3.252 7.229 7.229 7.229h.603c3.976 0 7.228-3.253 7.228-7.229v-32.058l26.314 35.941c.162.252.339.494.53.724l.001.002c.723.986 1.712 1.662 2.814 2.075.847.35 1.773.544 2.742.544h.603a7.162 7.162 0 0 0 3.377-.844c.723-.344 1.332-.788 1.761-1.311zm-71.208 2.155h.603c3.976 0 7.228-3.253 7.228-7.229v-53.609c0-3.976-3.252-7.228-7.228-7.228h-.603c-3.976 0-7.229 3.252-7.229 7.228v53.609c0 3.976 3.253 7.229 7.229 7.229z"
-                    ></path>
+                      ></path>
                   </g>
                 </svg>
-                Line @SP.guesthouse.cnx
-                </button>
-        <button className="btn btn-lg no-animation"><FaPhoneAlt />
-        Tel. 081-234567 คุณผึ้ง</button>
-        <button className="btn btn-lg  no-animation"><FaPhoneAlt />
-        Tel. 081-234567 คุณแสง</button>
-        
+                <p>@SPGuestHouse</p>
         </div>
+        <div className="flex items-center gap-2 ">
+          <FaPhoneAlt />
+          <p> Tel. 081-234567 คุณผึ้ง</p>
+        </div>
+        <div className="flex items-center gap-2 ">
+          <FaPhoneAlt />
+          <p> Tel. 081-165-6688 คุณแสง</p>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Contacts
+export default Contacts;

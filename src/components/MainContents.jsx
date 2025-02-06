@@ -89,7 +89,8 @@ const MainContents = () => {
             <ScrollToSection targetId="location" />
             <ScrollToSection targetId="contact us" />
           </div>
-         <div className="text-black flex text-xl justify-center mt-10 items-center">
+          {/* change language */}
+         <div className="hidden text-black md:flex text-xl justify-center mt-10 items-center">
           <h1>EN/</h1>
           <h1>TH/</h1>
           <h1>CN</h1>
@@ -99,17 +100,17 @@ const MainContents = () => {
 
       {/* Home Section */}
       <section id="home" className=" mt-[100px] pt-20 ">
-        <div className="max-w-7xl mx-auto px-4 pt-20 py-5 sm:py-0">
+        <div className="max-w-7xl mx-auto px-4 md:pt-20 py-5 sm:py-0">
           <div className="relative flex flex-col md:flex-row items-center gap-12">
             <div className="max-w-xl">
-              <h1 className="text-xl md:text-xl font-bold mb-4 text-black">
+              <h1 className="text-center md:text-left text-xl md:text-xl font-bold mb-4 text-black">
                 HELLO, Welcome to
               </h1>
-              <h1 className="relative z-10 w-[350px] md:w-[800px] h-[200px] md:h-[250px] text-5xl md:text-8xl font-bold mb-4 bg-gradient-to-r from-blue-500  to-green-500 bg-clip-text text-transparent">
+              <h1 className="text-center md:text-left  relative z-10 w-[350px] md:w-[800px] md:h-[250px] text-5xl md:text-8xl font-bold mb-4 bg-gradient-to-r from-blue-500  to-green-500 bg-clip-text text-transparent">
                 SP HOUSE
               </h1>
 
-              <div className="absolute -top-44 -right-[250px] h-[500px] md:hidden overflow-x-hidden ">
+              <div className="h-[500px] md:hidden overflow-x-hidden ">
                 <img
                   src="https://www.apthai.com/images/production/UsbWh2YUeismNDXKSRZlZOm8Xynz0ITGJAreFR7B.jpg"
                   alt="Profile"
@@ -117,7 +118,7 @@ const MainContents = () => {
                 />
               </div>
 
-              <div className="-mt-[150px] text-2xl md:text-3xl text-blue-500 font-bold mb-4">
+              <div className="mt-10 md:-mt-[150px] text-2xl md:text-3xl text-blue-500 font-bold mb-4">
                 <span>
                   <TypingAnimation words={roles} />
                   <span className="">|</span>
@@ -325,7 +326,7 @@ const MainContents = () => {
         <Information/>
       </section>
       {/* service section */}
-      <section id="service"> 
+      <section id="service" className=""> 
 
       <Service/>
       </section>
@@ -336,7 +337,7 @@ const MainContents = () => {
       </section>
 
       {/* Projects Section */}
-      <section id="location" className=" w-1/2  mx-auto py-10 text-black ">
+      <section id="location" className="md:w-1/2  mx-auto py-10 text-black ">
       <MapEmbed/>
       <NearPlace/>
       </section>

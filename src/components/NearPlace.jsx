@@ -2,7 +2,7 @@ import React from 'react'
 
 function NearPlace() {
   return (
-    <div className='text-black mt-5 '>
+    <div className='text-black mt-5 w-4/5 md:w-full mx-auto'>
         <h1 className='text-2xl font-bold text-center m-4'>สถานที่ใกล้เคียง</h1>
         <span>📍PK House</span><span> | </span>
         <span>📍ตลาดร่มบ่อสร้าง</span><span> | </span>
