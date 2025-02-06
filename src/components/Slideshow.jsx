@@ -10,8 +10,10 @@ const images = [
   "https://res.cloudinary.com/dfooq3ws5/image/upload/v1738479358/S__133005366_0_ubeh06.jpg",
   "https://res.cloudinary.com/dfooq3ws5/image/upload/v1738479358/S__133005355_0_pk6bqp.jpg",
   "https://res.cloudinary.com/dfooq3ws5/image/upload/v1738479357/S__133005361_0_hw5yxs.jpg",
-  "https://res.cloudinary.com/dfooq3ws5/image/upload/v1738479358/S__133005366_0_ubeh06.jpg",
-  "https://res.cloudinary.com/dfooq3ws5/image/upload/v1738479358/S__133005366_0_ubeh06.jpg",
+  "https://res.cloudinary.com/dfooq3ws5/image/upload/v1738479356/S__133005352_0_rkuosf.jpg",
+  "https://res.cloudinary.com/dfooq3ws5/image/upload/v1738479356/S__133005328_0_nu1i6i.jpg",
+  "https://res.cloudinary.com/dfooq3ws5/image/upload/v1738479355/S__133005345_0_z2qznr.jpg",
+  "https://res.cloudinary.com/dfooq3ws5/image/upload/v1738479355/S__133005340_0_qw8nuq.jpg",  
 ];
 
 const Slideshow = () => {
