@@ -342,7 +342,7 @@ const MainContents = () => {
       <NearPlace/>
       </section>
 {/* contact us */}
-      <section id="contact us" className=" w-1/2  mx-auto py-10 text-black ">
+      <section id="contact us" className="w-full md:w-1/2  mx-auto px-10 md:px-0 py-10 text-black ">
       <Contacts/>
       </section>
 
