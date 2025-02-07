@@ -5,7 +5,7 @@ function Information({language})
 {
 
   return (
-    <div className="w-full bg-gray-100/50 text-black p-10">
+    <div className="w-full bg-gray-50 text-black p-10">
 
       <h2 className="text-4xl md:text-5xl font-bold text-center  mt-5 text-black text-shadow-sm mb-4">
         
