@@ -129,7 +129,7 @@ const MainContents = () => {
                 Luxurious pool villa on the outskirts of Chiang Mai, not far
                 away. Just around the 3rd ring road, not far from tourist
                 attractions. Complete with entertainment equipment, suitable for
-                relaxing with friends. Large groups accommodate up to 15 people.
+                relaxing with friends. Large groups accommodate up to 10 people.
               </p>
               <div className="logo flex gap-5 justify-center md:justify-start ">
                 <a href="https://web.facebook.com/profile.php?id=61558914719073">
