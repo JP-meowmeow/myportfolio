@@ -21,7 +21,7 @@ const Slideshow = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-2xl font-bold mb-4">Our House</h2>
+      <h2 className="text-2xl font-bold mb-4  text-black">Our House</h2>
 
       {/* Main Swiper */}
       <Swiper
