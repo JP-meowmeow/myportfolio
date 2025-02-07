@@ -57,7 +57,7 @@ const Slideshow = () => {
               <img
                 src={img}
                 alt={`Thumbnail ${index}`}
-                className="w-full h-32 border cursor-pointer rounded-lg"
+                className="w-full h-32 border cursor-pointer rounded-lg ml-44"
               />
             </SwiperSlide>
           ))}
