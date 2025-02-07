@@ -94,8 +94,7 @@ function Service() {
             </svg>
             <h1 className="font-bold">entertainment</h1>
             <p className="w-[350px]">
-              Living room, watch movies, listen to music with a 75" TV, next to
-              the swimming pool with pool table.
+              Living room, watch movies, listen to music with a TV.
             </p>
           </div>
           <div className="w-full p-10 flex flex-col justify-center items-center text-center gap-5">

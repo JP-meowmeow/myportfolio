@@ -6,7 +6,7 @@ function Contacts() {
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-8  text-black text-shadow-sm">
         contact us
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
         <div className="flex items-center gap-2">
         <svg
                 width="32px"
@@ -46,7 +46,7 @@ function Contacts() {
         </div>
         <div className="flex items-center gap-2 ">
           <FaPhoneAlt />
-          <p> Tel. 081-234567 คุณผึ้ง</p>
+          <p> Tel. 093-271-1258 คุณผึ้ง</p>
         </div>
         <div className="flex items-center gap-2 ">
           <FaPhoneAlt />

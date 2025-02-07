@@ -91,9 +91,9 @@ const MainContents = () => {
           </div>
           {/* change language */}
          <div className="hidden text-black md:flex text-xl justify-center mt-10 items-center">
-          <h1>EN/</h1>
+          {/* <h1>EN/</h1>
           <h1>TH/</h1>
-          <h1>CN</h1>
+          <h1>CN</h1> */}
          </div>
         </div>
       </nav>
@@ -112,7 +112,7 @@ const MainContents = () => {
 
               <div className="h-[500px] md:hidden overflow-x-hidden ">
                 <img
-                  src="https://www.apthai.com/images/production/UsbWh2YUeismNDXKSRZlZOm8Xynz0ITGJAreFR7B.jpg"
+                  src="https://res.cloudinary.com/dfooq3ws5/image/upload/v1738923775/S__133242893_0_jua7xn.jpg"
                   alt="Profile"
                   className="w-[500px] h-full object-cover"
                 />
@@ -129,9 +129,11 @@ const MainContents = () => {
                 Luxurious pool villa on the outskirts of Chiang Mai, not far
                 away. Just around the 3rd ring road, not far from tourist
                 attractions. Complete with entertainment equipment, suitable for
-                relaxing with friends. Large groups accommodate up to 20 people.
+                relaxing with friends. Large groups accommodate up to 15 people.
               </p>
               <div className="logo flex gap-5 justify-center md:justify-start ">
+                <a href="https://web.facebook.com/profile.php?id=61558914719073">
+                
                 {/* facebook */}
                 <svg
                   width="54px"
@@ -157,8 +159,9 @@ const MainContents = () => {
                     ></path>
                   </g>
                 </svg>
+                </a>
                 {/* IG */}
-                <a
+                {/* <a
                   href="#"
                   target="_blank"
                 >
@@ -273,7 +276,7 @@ const MainContents = () => {
                       </defs>{" "}
                     </g>
                   </svg>
-                </a>
+                </a> */}
                 {/* Line */}
                 <svg
                 width="54px"
@@ -313,7 +316,7 @@ const MainContents = () => {
             </div>
             <div className="hidden sm:block h-[800px] overflow-hidden ">
               <img
-                src="https://www.apthai.com/images/production/UsbWh2YUeismNDXKSRZlZOm8Xynz0ITGJAreFR7B.jpg"
+                src="https://res.cloudinary.com/dfooq3ws5/image/upload/v1738923775/S__133242893_0_jua7xn.jpg"
                 alt="Profile"
                 className="w-[800px] h-full object-cover"
               />
