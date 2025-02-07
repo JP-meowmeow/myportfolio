@@ -78,7 +78,7 @@ const MainContents = () => {
 
   return (
     // BG color change
-    <div className="text-white font-kanit overflow-x-hidden bg-gray-100/50">
+    <div className="text-white font-kanit overflow-x-hidden bg-gray-50">
       {/* Fixed Navigation */}
       <nav className="absolute md:px-10 -mt-20 top-0 left-0 w-full h-[200px]">
         <div className="max-w-7xl mx-auto flex justify-center md:justify-between items-center">
