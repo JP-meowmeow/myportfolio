@@ -34,18 +34,24 @@ function NearPlace() {
         <span>📍PK House</span>
         <span>📍ตลาดร่มบ่อสร้าง</span>
         <span>📍สี่แยกหลุยส์</span>
+        <span>📍หลุยส์เครื่องเงิน</span>
         <span>📍ร้านกาแฟกระดาษ</span>
         <span>📍เรือนแพ 1</span>
+        <span>📍กาดอุ้ยทา</span>
+        <span>📍ร่มบ่อสร้าง</span>
         <span>📍น้ำพุร้อนสันกำแพง</span>
         <span>📍เขียงนาคาเฟ่</span>
         <span>📍ดัทชีฟาร์ม</span>
         <span>📍chiangmai circuit go-kart</span>
         <span>📍Maya เมญ่า</span>
         <span>📍ตำแม่ออน</span>
+        <span>📍แม่กำปอง</span>
         <span>📍Jin an cafe</span>
         <span>📍อุทยานแห่งชาติแม่ตะไคร้</span>
         <span>📍อ่างเก็บน้ำห้วยลาน</span>
         <span>📍MAiAM</span>
+        <span>📍Central festival Chiang Mai</span>
+        <span>📍Central Airport</span>
         <span>📍The cave cafe&Eatery</span>
         <span>📍Chuen cafe</span>
         <span>📍Karin & Sho's</span>
@@ -53,8 +59,14 @@ function NearPlace() {
         <span>📍โซลาวบ้านเจ๊</span>
         <span>📍ตลาดเจริญเจริญ</span>
         <span>📍โมเดิร์น</span>
-        <span>📍Central festival Chiang Mai</span>
-        <span>📍Central Airport</span>
+        <span>📍บ้านรมณ์ดี 2</span>
+        <span>📍เชียงใหม่</span>
+        <span>📍บ้านพักเชียงใหม่</span>
+        <span>📍บ้านพักรายวัน</span>
+        <span>📍บ้านพักรายเดือน</span>
+        <span>📍ที่พัก</span>
+        <span>📍โรงแรม</span>
+        <span>📍รีสอร์ท</span>
         </div>
        
     

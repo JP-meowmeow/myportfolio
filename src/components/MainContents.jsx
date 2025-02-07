@@ -278,6 +278,7 @@ const MainContents = () => {
                   </svg>
                 </a> */}
                 {/* Line */}
+                <a href="https://line.me/ti/p/QwZuBX-KRi">
                 <svg
                 width="54px"
                     height="56px"
@@ -312,6 +313,7 @@ const MainContents = () => {
                     ></path>
                   </g>
                 </svg>
+                </a>
               </div>
             </div>
             <div className="hidden sm:block h-[800px] overflow-hidden ">
