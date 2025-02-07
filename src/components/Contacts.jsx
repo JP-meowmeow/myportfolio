@@ -1,6 +1,6 @@
 import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
-function Contacts() {
+function Contacts({language}) {
   return (
     <div>
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-8  text-black text-shadow-sm">
@@ -50,7 +50,11 @@ function Contacts() {
         </div> */}
         <div className="flex items-center gap-2 ">
           <FaPhoneAlt />
-          <p> Tel. 081-165-6688 คุณแสง</p>
+          {language == "Thai"
+          ?<p> Tel. 081-165-6688 คุณแสง</p>
+          :<p> Tel. 081-165-6688 Ms.Saeng</p>
+
+          }
         </div>
       </div>
     </div>

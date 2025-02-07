@@ -18,12 +18,19 @@ const images = [
   "https://res.cloudinary.com/dfooq3ws5/image/upload/v1738930985/S__133005330_0_juo4jw.jpg",
 ];
 
-const Slideshow = () => {
+const Slideshow = ({language}) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
     <div className="flex flex-col items-center">
-      <h2 className="text-2xl font-bold mb-4  text-black">Our House</h2>
+      <h2 className="text-4xl font-bold mb-4  text-black">
+        {
+          language == "Thai"
+          ?"บ้านของเรา"
+          :"Our House"
+        }
+        
+        </h2>
 
       {/* Main Swiper */}
       <Swiper
