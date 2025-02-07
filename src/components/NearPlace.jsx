@@ -2,12 +2,12 @@ import React from "react";
 
 function NearPlace({ language }) {
   return (
-    <div className="text-black mt-5 w-3/5 md:w-full mx-auto">
+    <div className="text-black mt-5 w-4/5 md:w-full mx-auto">
       <h1 className="text-3xl font-bold text-center m-4">
         {language == "Thai" ? "สถานที่ใกล้เคียง" : "Near places"}
       </h1>
       {language == "Thai" ? (
-        <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 text-xl">
           <span>📍PK House</span>
           <span>📍ตลาดร่มบ่อสร้าง</span>
           <span>📍สี่แยกหลุยส์</span>
@@ -46,7 +46,7 @@ function NearPlace({ language }) {
           <span>📍รีสอร์ท</span>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 text-xl">
           <span>📍PK House</span>
           <span>📍Rom Bo Sang Market</span>
           <span>📍Louis Intersection</span>

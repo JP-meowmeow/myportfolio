@@ -130,7 +130,7 @@ const MainContents = () => {
               <h1 className="text-center md:text-left text-xl md:text-xl font-bold mb-4 text-black">
                 HELLO, Welcome to
               </h1>
-              <h1 className="text-center md:text-left  relative z-10 w-[350px] md:w-[800px] md:h-[250px] text-5xl md:text-8xl font-bold mb-4 bg-gradient-to-r from-blue-500  to-green-500 bg-clip-text text-transparent">
+              <h1 className="text-center md:text-left  relative z-10  md:w-[800px] md:h-[250px] text-5xl md:text-8xl font-bold mb-4 bg-gradient-to-r from-blue-500  to-green-500 bg-clip-text text-transparent">
                 SP HOUSE
               </h1>
 
@@ -142,30 +142,67 @@ const MainContents = () => {
                 />
               </div>
 
-              <div className="mt-10 md:-mt-[150px] text-2xl md:text-3xl text-blue-500 font-bold mb-4">
+              <div className="text-center mt-10 md:-mt-[150px] text-3xl md:text-4xl text-blue-500 font-bold mb-4">
                 <span>
                   <TypingAnimation words={roles} />
                   <span className="">|</span>
                 </span>
               </div>
               {language == "Thai" ? (
-                <p className="text-xl md:text-xl font-bold mb-4 text-black ">
-                  "🌟 เชียงใหม่ พูลวิลล่าส่วนตัว | สวรรค์แห่งการพักผ่อน! 🏊‍♀️ ✨
-                  วิลล่าหรูระดับพรีเมียม ✨ ใกล้วงแหวนที่ 3 และแหล่งท่องเที่ยว
-                  ✨ รองรับได้ถึง 10 คน ✨ พร้อมอุปกรณ์ความบันเทิงครบครัน 🔒
-                  ที่พักปลอดภัย เหมาะสำหรับ: การประชุม ทริปครอบครัว กลุ่มเพื่อน
-                  🚗 ที่จอดรถสะดวก 📍 ติดชุมชน เข้าถึงง่าย หรูหรา • สะดวก •
-                  ปลอดภัย"
-                </p>
+                <div>
+                  <p className="text-xl  font-bold mb-4 text-black ">
+                    🌟 เชียงใหม่ พูลวิลล่าส่วนตัว
+                  </p>
+                  <p className="text-xl md:text-xl font-bold mb-4 text-black ">
+                    ✨ วิลล่าหรูระดับพรีเมียม
+                  </p>
+                  <p className="text-xl md:text-xl font-bold mb-4 text-black ">
+                    ✨ ใกล้วงแหวนที่ 3 และแหล่งท่องเที่ยว
+                  </p>
+                  <p className="text-xl md:text-xl font-bold mb-4 text-black ">
+                    ✨ รองรับได้ถึง 10 คน
+                  </p>
+                  <p className="text-xl md:text-xl font-bold mb-4 text-black ">
+                    ✨ พร้อมอุปกรณ์ความบันเทิงครบครัน
+                  </p>
+                  <p className="text-xl md:text-xl font-bold mb-4 text-black ">
+                    🔒 ที่พักปลอดภัย เหมาะสำหรับ: การประชุม ทริปครอบครัว
+                    กลุ่มเพื่อน"
+                  </p>
+                  <p className="text-xl md:text-xl font-bold mb-4 text-black ">
+                    🚗 ที่จอดรถสะดวก
+                  </p>
+                  <p className="text-xl md:text-xl font-bold mb-4 text-black ">
+                    📍 ติดชุมชน เข้าถึงง่าย หรูหรา • สะดวก • ปลอดภัย
+                  </p>
+                </div>
               ) : (
-                <p className="text-xl md:text-xl font-bold mb-4 text-black ">
-                  🌟 Chiang Mai Private Pool Villa | Your Ultimate Retreat! 🏊‍♀️
-                  ✨ Luxury Premium Villa ✨ Near 3rd Ring Road & Top
-                  Attractions ✨ Sleeps Up to 10 Guests ✨ Full Entertainment
-                  Setup 🔒 Secure Location Perfect For: - Group Meetings -
-                  Family Trips - Friend Getaways 🚗 Convenient Parking 📍
-                  Community Accessible Luxurious • Convenient • Safe
-                </p>
+                <div>
+ <p className="text-xl font-bold mb-4 text-black">
+   🌟 Chiang Mai Private Pool Villa
+ </p>
+ <p className="text-xl md:text-xl font-bold mb-4 text-black">
+   ✨ Luxury Premium Villa
+ </p>
+ <p className="text-xl md:text-xl font-bold mb-4 text-black">
+   ✨ Near 3rd Ring Road & Top Attractions
+ </p>
+ <p className="text-xl md:text-xl font-bold mb-4 text-black">
+   ✨ Sleeps Up to 10 Guests
+ </p>
+ <p className="text-xl md:text-xl font-bold mb-4 text-black">
+   ✨ Full Entertainment Setup
+ </p>
+ <p className="text-xl md:text-xl font-bold mb-4 text-black">
+   🔒 Secure Location Perfect For: Meetings, Family Trips, Friend Getaways
+ </p>
+ <p className="text-xl md:text-xl font-bold mb-4 text-black">
+   🚗 Convenient Parking
+ </p>
+ <p className="text-xl md:text-xl font-bold mb-4 text-black">
+   📍 Community Accessible • Luxurious • Convenient • Safe
+ </p>
+</div>
               )}
 
               <div className="logo flex gap-5 justify-center md:justify-start ">
@@ -247,37 +284,37 @@ const MainContents = () => {
       </section>
       {/* InformationSection */}
       <section id="information" className="">
-        {language == "Thai"
-        ?<Information language="Thai" />
-      : <Information language="English" />
-      }
-        
-       
+        {language == "Thai" ? (
+          <Information language="Thai" />
+        ) : (
+          <Information language="English" />
+        )}
       </section>
       {/* service section */}
       <section id="service" className="">
-      {language == "Thai"
-        ?<Service language="Thai" />
-      : <Service language="English" />
-      }
-
+        {language == "Thai" ? (
+          <Service language="Thai" />
+        ) : (
+          <Service language="English" />
+        )}
       </section>
       {/* Image */}
       <section id="picture">
-      {language == "Thai"
-        ?<Slideshow language="Thai" />
-      : <Slideshow language="English" />
-      }
+        {language == "Thai" ? (
+          <Slideshow language="Thai" />
+        ) : (
+          <Slideshow language="English" />
+        )}
       </section>
 
       {/* Projects Section */}
       <section id="location" className="md:w-1/2  mx-auto py-10 text-black ">
-     
         <MapEmbed />
-        {language == "Thai"
-        ?<NearPlace language="Thai" />
-      : <NearPlace language="English" />
-      }
+        {language == "Thai" ? (
+          <NearPlace language="Thai" />
+        ) : (
+          <NearPlace language="English" />
+        )}
       </section>
       {/* contact us */}
       <section

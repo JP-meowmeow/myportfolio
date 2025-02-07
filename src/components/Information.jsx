@@ -15,7 +15,7 @@ function Information({language})
       </h2>
       {
         language == "Thai"
-        ?<section id="experience" className="py-10 md:px-20 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
+        ?<section id="experience" className="py-10 md:px-20 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 text-xl" >
         <div>
           <h1 className="font-bold">ราคาบ้านพัก</h1>
           <h1>
@@ -63,7 +63,7 @@ function Information({language})
         </div>
       </section>
       // English
-        :<section id="experience" className="py-10 md:px-20 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
+        :<section id="experience" className="py-10 md:px-20 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 text-xl">
         <div>
           <h1 className="font-bold">Villa Rental Rates</h1>
           <h1>

@@ -15,7 +15,7 @@ function Service({language}) {
         </h2>
 {
   language == "Thai"
-  ?<div className="grid grid-cols-1 md:grid-cols-3 text-black mx-auto">
+  ?<div className="grid grid-cols-1 md:grid-cols-3 text-black mx-auto text-xl">
   <div className="w-full p-10 flex flex-col justify-center items-center text-center gap-5">
     <svg
       fill="#000000"
@@ -198,7 +198,7 @@ function Service({language}) {
     </p>
   </div>
 </div>
-  :<div className="grid grid-cols-1 md:grid-cols-3 text-black mx-auto">
+  :<div className="grid grid-cols-1 md:grid-cols-3 text-black mx-auto text-xl">
   <div className="w-full p-10 flex flex-col justify-center items-center text-center gap-5">
     <svg
       fill="#000000"
